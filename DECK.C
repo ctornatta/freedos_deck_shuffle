@@ -34,60 +34,7 @@ int is_black(int suit) {
     return (suit & 2);
 }
 
-/* returns the chard value, needed to diplay 10 */
-/* function is unused*/
-int get_card_value(int i) {
-
-    int value;
-
-    switch(i) {
-	case 0:
-	    value = 'A';
-	    break;
-	case 1:
-	    value = 2;
-	    break;
-	case 2:
-	    value = 3;
-	    break;
-	case 3:
-	    value = 4;
-	    break;
-	case 4:
-	    value = 5;
-	    break;
-	case 5:
-	    value = 6;
-	    break;
-	case 6:
-	    value = 7;
-	    break;
-	case 7:
-	    value = 8;
-	    break;
-	case 8:
-	    value = 9;
-	    break;
-	case 9:
-	    value = 10;
-	    break;
-	case 10:
-	    value = 'J';
-	    break;
-	case 11:
-	    value = 'Q';
-	    break;
-	case 12:
-	    value = 'K';
-	    break;
-	default: /*this should never happen*/
-	    value = -1; 
-    }
-
-    return value;
-} 
-
-/*returns a string representing the card value*/
+/*returns a point to a string representing the card value*/
 char* get_card_value_str(int i, char* tmpstr) {
 
     //char tmpstr[2];
@@ -139,8 +86,6 @@ char* get_card_value_str(int i, char* tmpstr) {
     return tmpstr;
 } 
 
-
-/*todo: if value is only 1 char then add space for aligment*/
 void print_deck(card_t *deck) {
     //old method: using X to represent 10 card
     //char cards[] = "A23456789XJQK";
