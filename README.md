@@ -1,6 +1,6 @@
 # Overview
 
-After watching Jim Hall's excellent Free DOS programming tutorial on how to write a Solitaire game [YouTube video](https://www.youtube.com/watch?v=zczmAkd8mvA) I decided to expand on the idea. 
+After watching Jim Hall's excellent FreeDOS programming tutorial on how to write a Solitaire game [YouTube video](https://www.youtube.com/watch?v=zczmAkd8mvA) I decided to expand on the idea. 
 
 Changes:
 
@@ -9,11 +9,11 @@ Changes:
 * Cleaned up output to make it easier to read.
 * Created a  Open Watcom `Makefile` to make compiling easier.
 
-This was done strictly for fun and learning as I am a novice.
+This was done strictly for fun and learning.
 
 # Building and Running
 
-I edited and built the code on `FreeDOS 1.4-RC3` using  Open Watcom as the compiler and fed as the editor.
+I edited and built the code on `FreeDOS 1.4-RC3` using  Open Watcom as the compiler and [fed](https://www.shawnhargreaves.com/fed/) as the editor.
 
 **to build**
 
