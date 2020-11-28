@@ -13,7 +13,7 @@ This was done strictly for fun and learning.
 
 # Building and Running
 
-I edited and built the code on `FreeDOS 1.4-RC3` using  Open Watcom as the compiler and [fed](https://www.shawnhargreaves.com/fed/) as the editor.
+I edited and built the code on `FreeDOS 1.3-RC3` using  Open Watcom as the compiler and [fed](https://www.shawnhargreaves.com/fed/) as the editor.
 
 **to build**
 
